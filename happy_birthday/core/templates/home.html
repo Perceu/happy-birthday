@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+<div id="particles-js" class="background">
+    <div class="counter">
+        <img src="{% static 'img/logo.png' %}" alt="Logo" class="logo">
+        <link rel="stylesheet" href="">
+        <div id="counter"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'js/particles.min.js' %}"></script>
+<script src="{% static 'js/app.js' %}"></script>
+<script src="{% static 'js/home.js' %}"></script>
+{% endblock %}
