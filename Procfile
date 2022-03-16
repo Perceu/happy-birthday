@@ -1,2 +1,2 @@
 release: python manage.py migrate --noinput
-web: gunicorn marqueclinica.wsgi --log-file -
+web: gunicorn happy_birthday.wsgi --log-file -
