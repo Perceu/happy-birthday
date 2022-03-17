@@ -14,6 +14,7 @@ html {
     background-color: #3e2d58;
     width: 100vw;
     height: 100vh;
+    min-height: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +36,9 @@ html {
 .logo{
     max-width: 500px;
     min-width: 250px;
+    width: 80%;
 }
+
 .info p{
     font-size: 10rem;
     font-weight: 900;
@@ -50,8 +53,8 @@ html {
     font-family: 'Rubik', sans-serif;
 }
 
-
-
 #counter{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
