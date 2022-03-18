@@ -44,6 +44,16 @@ h1{
     font-family: 'Pacifico', cursive;
     color: #fff;
 }
+
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 6rem;
+        font-family: 'Pacifico', cursive;
+        color: #fff;
+    }
+
+}
+
 h2{
     margin-top: 20px;
     font-size: 12rem;
