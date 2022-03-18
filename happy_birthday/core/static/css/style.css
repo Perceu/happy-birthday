@@ -14,7 +14,7 @@ html {
     background-color: #3e2d58;
     width: 100vw;
     height: 100vh;
-    min-height: 1200px;
+    min-height: 1500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
 
 .info{
@@ -36,7 +37,18 @@ html {
 .logo{
     max-width: 500px;
     min-width: 250px;
-    width: 80%;
+    width: 90%;
+}
+h1{
+    font-size: 8rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+h2{
+    margin-top: 20px;
+    font-size: 12rem;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
 }
 
 .info p{
@@ -44,6 +56,13 @@ html {
     font-weight: 900;
     color: #fff;
     font-family: 'Rubik', sans-serif;
+}
+
+.msg {
+    padding: 15px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
 }
 
 .info p.label{
